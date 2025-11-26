@@ -63,8 +63,10 @@ function App() {
       selectedAnimal = [animalsAtLocation[randomIndex]];
     } else {
       // Fallback: show nearest animal if region has none
-      const nearest = findNearest(lat, lng, 1);
-      selectedAnimal = nearest;
+      // Get 5 nearest animals and pick one randomly to ensure variety
+      const nearest = findNearest(lat, lng, 5);
+      const randomNearestIndex = Math.floor(Math.random() * nearest.length);
+      selectedAnimal = [nearest[randomNearestIndex]];
     }
 
     // 5. Trigger globe animation and show fact card
