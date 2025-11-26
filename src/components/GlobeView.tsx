@@ -42,6 +42,8 @@ const GlobeView = forwardRef<GlobeViewHandle, GlobeViewProps>(({
 
             setIsAnimating(true); // Disable heatmap during animation
 
+            // Disable rotation animation as per user request
+            /*
             // Get current position
             const currentPOV = globeEl.current.pointOfView();
             const startLng = currentPOV.lng || 0;
@@ -102,6 +104,25 @@ const GlobeView = forwardRef<GlobeViewHandle, GlobeViewProps>(({
                 };
 
                 requestAnimationFrame(animate);
+            });
+            */
+
+            // Simple direct transition without rotation
+            return new Promise<void>((resolve) => {
+                if (globeEl.current) {
+                    globeEl.current.pointOfView({
+                        lat,
+                        lng,
+                        altitude: 1.5
+                    }, 1000); // 1 second smooth transition
+
+                    setTimeout(() => {
+                        setIsAnimating(false);
+                        resolve();
+                    }, 1000);
+                } else {
+                    resolve();
+                }
             });
         },
         zoomOut: () => {
