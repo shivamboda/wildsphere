@@ -34,7 +34,7 @@ const FactCard: React.FC<FactCardProps> = ({ animals, onClose }) => {
                     stiffness: 350,
                     damping: 25
                 }}
-                className="glass-panel fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-11/12 max-w-xl text-white p-0 rounded-3xl z-50 overflow-hidden flex flex-col"
+                className="glass-panel fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-11/12 max-w-xl text-white p-0 rounded-3xl z-50 overflow-hidden flex flex-col max-h-[85vh] md:max-h-none overflow-y-auto md:overflow-y-visible"
             >
                 {/* Image Section */}
                 <div className="relative w-full h-72 bg-black/40 overflow-hidden group">

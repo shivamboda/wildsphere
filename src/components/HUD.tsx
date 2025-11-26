@@ -12,9 +12,9 @@ const HUD: React.FC<HUDProps> = ({ totalCount, onRandom }) => {
             initial={{ y: 50, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 1, duration: 0.8 }}
-            className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 flex items-center gap-4"
+            className="absolute bottom-6 left-1/2 -translate-x-1/2 z-20 flex items-center gap-4 w-full justify-center px-4"
         >
-            <div className="glass-panel px-6 py-3 rounded-full flex items-center gap-6">
+            <div className="glass-panel px-6 py-3 rounded-3xl md:rounded-full flex flex-col md:flex-row items-center gap-3 md:gap-6 w-full md:w-auto max-w-sm md:max-w-none">
                 <div className="flex flex-col items-start">
                     <span className="text-[10px] text-gray-400 uppercase tracking-widest font-semibold">Status</span>
                     <span className="text-sm font-medium text-white flex items-center gap-2">
@@ -23,7 +23,7 @@ const HUD: React.FC<HUDProps> = ({ totalCount, onRandom }) => {
                     </span>
                 </div>
 
-                <div className="h-8 w-px bg-white/10" />
+                <div className="hidden md:block h-8 w-px bg-white/10" />
 
                 <button
                     onClick={onRandom}
