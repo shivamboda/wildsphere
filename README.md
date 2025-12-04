@@ -143,9 +143,3 @@ The UI uses:
 Inspired by the beauty of wildlife and the wonder of global exploration.  
 Built to spark curiosity — one click at a time.
 
----
-
-## 📜 License
-
-MIT License — free for personal and commercial use.
-
