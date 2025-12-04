@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { AnimatePresence } from 'framer-motion';
 import GlobeView, { type GlobeViewHandle } from './components/GlobeView';
 import FactCard from './components/FactCard';
 import Starfield from './components/Starfield';
