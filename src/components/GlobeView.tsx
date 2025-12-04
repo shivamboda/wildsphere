@@ -8,12 +8,14 @@ interface GlobeViewProps {
     showHeatmap?: boolean;
     heatmapData?: any[];
     isPaused?: boolean;
+    initialLat?: number;
+    initialLng?: number;
 }
 
 export interface GlobeViewHandle {
     flyTo: (lat: number, lng: number) => void;
     animateTo: (lat: number, lng: number) => Promise<void>;
-    zoomOut: () => void;
+    zoomOut: (lat?: number, lng?: number) => void;
 }
 
 const GlobeView = forwardRef<GlobeViewHandle, GlobeViewProps>(({
@@ -22,7 +24,9 @@ const GlobeView = forwardRef<GlobeViewHandle, GlobeViewProps>(({
     bumpImageUrl,
     showHeatmap = false,
     heatmapData = [],
-    isPaused = false
+    isPaused = false,
+    initialLat = 20,
+    initialLng = -100
 }, ref) => {
     const globeEl = useRef<GlobeMethods | undefined>(undefined);
     const [dimensions, setDimensions] = useState({ width: window.innerWidth, height: window.innerHeight });
@@ -125,14 +129,14 @@ const GlobeView = forwardRef<GlobeViewHandle, GlobeViewProps>(({
                 }
             });
         },
-        zoomOut: () => {
+        zoomOut: (lat?: number, lng?: number) => {
             if (!globeEl.current) return;
 
             setIsAnimating(true);
-            // Zoom out to default view
+            // Zoom out to default view or provided coordinates
             globeEl.current.pointOfView({
-                lat: 0,
-                lng: 0,
+                lat: lat ?? initialLat,
+                lng: lng ?? initialLng,
                 altitude: 2.5
             }, 1500);
             setTimeout(() => setIsAnimating(false), 1500);
@@ -144,8 +148,18 @@ const GlobeView = forwardRef<GlobeViewHandle, GlobeViewProps>(({
             setDimensions({ width: window.innerWidth, height: window.innerHeight });
         };
         window.addEventListener('resize', handleResize);
+
+        // Set initial view
+        if (globeEl.current) {
+            globeEl.current.pointOfView({
+                lat: initialLat,
+                lng: initialLng,
+                altitude: 2.5
+            });
+        }
+
         return () => window.removeEventListener('resize', handleResize);
-    }, []);
+    }, [initialLat, initialLng]);
 
     const handleMouseDown = (event: React.MouseEvent) => {
         dragStartPos.current = { x: event.clientX, y: event.clientY };

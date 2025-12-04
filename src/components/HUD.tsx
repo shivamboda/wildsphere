@@ -3,10 +3,11 @@ import { motion } from 'framer-motion';
 
 interface HUDProps {
     totalCount: number;
+    visitedCount: number;
     onRandom: () => void;
 }
 
-const HUD: React.FC<HUDProps> = ({ totalCount, onRandom }) => {
+const HUD: React.FC<HUDProps> = ({ totalCount, visitedCount, onRandom }) => {
     return (
         <motion.div
             initial={{ y: 50, opacity: 0 }}
@@ -19,7 +20,7 @@ const HUD: React.FC<HUDProps> = ({ totalCount, onRandom }) => {
                     <span className="text-[10px] text-gray-400 uppercase tracking-widest font-semibold hidden md:block">Status</span>
                     <span className="text-xs md:text-sm font-medium text-white flex items-center gap-2">
                         <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
-                        {totalCount} <span className="hidden sm:inline">Species Mapped</span>
+                        {visitedCount} / {totalCount} <span className="hidden sm:inline">Discovered</span>
                     </span>
                 </div>
 

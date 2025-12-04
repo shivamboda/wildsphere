@@ -16,9 +16,8 @@ let points: Point[] = [];
 
 export const buildIndex = (data: any[]) => {
     // Just store the points, no index needed for small dataset (676 items)
-    points = data.map((item, idx) => ({
+    points = data.map((item) => ({
         ...item,
-        id: item.id || idx,
         scientific: item.scientific || item.scientific_name,
         lat: item.lat ?? item.latitude,
         lng: item.lng ?? item.longitude

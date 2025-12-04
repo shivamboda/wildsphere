@@ -1,0 +1,1070 @@
+=================================================================
+MISSING LOCAL IMAGES LIST
+=================================================================
+
+Total animals without local image files: 211
+
+Download images and save to: public/images/animals/
+Then run: cmd /c "npx ts-node scripts/link-images.ts"
+
+=================================================================
+
+1. Surinam Toad
+   Scientific: Pipa pipa
+   Filename: surinam_toad.jpg
+   Search: "Pipa pipa" or "Surinam Toad"
+
+2. Hagfish - Pacific
+   Scientific: Eptatretus stoutii
+   Filename: hagfish_pacific.jpg
+   Search: "Eptatretus stoutii" or "Hagfish - Pacific"
+
+3. Ant - Argentine (War)
+   Scientific: Linepithema humile
+   Filename: ant_argentine_war.jpg
+   Search: "Linepithema humile" or "Ant - Argentine (War)"
+
+4. Kangaroo Rat - Giant (Hoarding)
+   Scientific: Dipodomys ingens
+   Filename: kangaroo_rat_giant_hoarding.jpg
+   Search: "Dipodomys ingens" or "Kangaroo Rat - Giant (Hoarding)"
+
+5. Vulture - Bearded (Beak)
+   Scientific: Gypaetus barbatus
+   Filename: vulture_bearded_beak.jpg
+   Search: "Gypaetus barbatus" or "Vulture - Bearded (Beak)"
+
+6. Ant - Argentine (Monogyny)
+   Scientific: Linepithema humile
+   Filename: ant_argentine_monogyny.jpg
+   Search: "Linepithema humile" or "Ant - Argentine (Monogyny)"
+
+7. Penguin - Emperor (Incubation Temperature)
+   Scientific: Aptenodytes forsteri
+   Filename: penguin_emperor_incubation_temperature.jpg
+   Search: "Aptenodytes forsteri" or "Penguin - Emperor (Incubation Temperature)"
+
+8. Spider - Golden Silk Orb-Weaver (Color Perception)
+   Scientific: Nephila senegalensis
+   Filename: spider_golden_silk_orb_weaver_color_perception.jpg
+   Search: "Nephila senegalensis" or "Spider - Golden Silk Orb-Weaver (Color Perception)"
+
+9. Elephant - African Forest (Sound)
+   Scientific: Loxodonta cyclotis
+   Filename: elephant_african_forest_sound.jpg
+   Search: "Loxodonta cyclotis" or "Elephant - African Forest (Sound)"
+
+10. Eel - Electric (Juvenile)
+   Scientific: Electrophorus electricus
+   Filename: eel_electric_juvenile.jpg
+   Search: "Electrophorus electricus" or "Eel - Electric (Juvenile)"
+
+11. Spider - Six-Eyed Sand (Longevity)
+   Scientific: Sicarius hahni
+   Filename: spider_six_eyed_sand_longevity.jpg
+   Search: "Sicarius hahni" or "Spider - Six-Eyed Sand (Longevity)"
+
+12. Shark - Basking (Behavior)
+   Scientific: Cetorhinus maximus
+   Filename: shark_basking_behavior.jpg
+   Search: "Cetorhinus maximus" or "Shark - Basking (Behavior)"
+
+13. Toad - Poison Dart (Phyllobates - Range)
+   Scientific: Phyllobates aurotaenia
+   Filename: toad_poison_dart_phyllobates_range.jpg
+   Search: "Phyllobates aurotaenia" or "Toad - Poison Dart (Phyllobates - Range)"
+
+14. Walrus (Digging)
+   Scientific: Odobenus rosmarus
+   Filename: walrus_digging.jpg
+   Search: "Odobenus rosmarus" or "Walrus (Digging)"
+
+15. Pika - Collared (Metabolism)
+   Scientific: Ochotona collaris
+   Filename: pika_collared_metabolism.jpg
+   Search: "Ochotona collaris" or "Pika - Collared (Metabolism)"
+
+16. Bird - American Dipper (Hearing)
+   Scientific: Cinclus mexicanus
+   Filename: bird_american_dipper_hearing.jpg
+   Search: "Cinclus mexicanus" or "Bird - American Dipper (Hearing)"
+
+17. Cuttlefish - Giant Australian (Female)
+   Scientific: Sepia apama
+   Filename: cuttlefish_giant_australian_female.jpg
+   Search: "Sepia apama" or "Cuttlefish - Giant Australian (Female)"
+
+18. Pigeon - Orange Dove
+   Scientific: Ptilinopus perousii
+   Filename: pigeon_orange_dove.jpg
+   Search: "Ptilinopus perousii" or "Pigeon - Orange Dove"
+
+19. Boa - Pacific Ground
+   Scientific: Candoia bibroni
+   Filename: boa_pacific_ground.jpg
+   Search: "Candoia bibroni" or "Boa - Pacific Ground"
+
+20. Flying Fox - Fiji
+   Scientific: Pteropus samoensis
+   Filename: flying_fox_fiji.jpg
+   Search: "Pteropus samoensis" or "Flying Fox - Fiji"
+
+21. Fiji Banded Iguana
+   Scientific: Brachylophus fasciatus
+   Filename: fiji_banded_iguana.jpg
+   Search: "Brachylophus fasciatus" or "Fiji Banded Iguana"
+
+22. Seasnake - Yellow-lipped
+   Scientific: Laticauda colubrina
+   Filename: seasnake_yellow_lipped.jpg
+   Search: "Laticauda colubrina" or "Seasnake - Yellow-lipped"
+
+23. Crab - Ghost (Fiji)
+   Scientific: Ocypode ceratophthalmus
+   Filename: crab_ghost_fiji.jpg
+   Search: "Ocypode ceratophthalmus" or "Crab - Ghost (Fiji)"
+
+24. Goshawk - Fiji
+   Scientific: Accipiter rufitorques
+   Filename: goshawk_fiji.jpg
+   Search: "Accipiter rufitorques" or "Goshawk - Fiji"
+
+25. Frog - Fiji Tree
+   Scientific: Platymantis vitiensis
+   Filename: frog_fiji_tree.jpg
+   Search: "Platymantis vitiensis" or "Frog - Fiji Tree"
+
+26. Butterfly - Blue Triangle
+   Scientific: Graphium sarpedon
+   Filename: butterfly_blue_triangle.jpg
+   Search: "Graphium sarpedon" or "Butterfly - Blue Triangle"
+
+27. Dugong (Mozambique)
+   Scientific: Dugong dugon
+   Filename: dugong_mozambique.jpg
+   Search: "Dugong dugon" or "Dugong (Mozambique)"
+
+28. Viper - Gaboon (Mozambique)
+   Scientific: Bitis gabonica
+   Filename: viper_gaboon_mozambique.jpg
+   Search: "Bitis gabonica" or "Viper - Gaboon (Mozambique)"
+
+29. Pangolin - Temminck's (Ground)
+   Scientific: Smutsia temminckii
+   Filename: pangolin_temminck_s_ground.jpg
+   Search: "Smutsia temminckii" or "Pangolin - Temminck's (Ground)"
+
+30. Cheetah (Mozambique)
+   Scientific: Acinonyx jubatus
+   Filename: cheetah_mozambique.jpg
+   Search: "Acinonyx jubatus" or "Cheetah (Mozambique)"
+
+31. Elephant - African Bush (Mozambique)
+   Scientific: Loxodonta africana
+   Filename: elephant_african_bush_mozambique.jpg
+   Search: "Loxodonta africana" or "Elephant - African Bush (Mozambique)"
+
+32. Monitor Lizard - Rock (Mozambique)
+   Scientific: Varanus albigularis
+   Filename: monitor_lizard_rock_mozambique.jpg
+   Search: "Varanus albigularis" or "Monitor Lizard - Rock (Mozambique)"
+
+33. Sunbird - Scarlet-chested
+   Scientific: Chalcomitra senegalensis
+   Filename: sunbird_scarlet_chested.jpg
+   Search: "Chalcomitra senegalensis" or "Sunbird - Scarlet-chested"
+
+34. Hyena - Spotted (Mozambique)
+   Scientific: Crocuta crocuta
+   Filename: hyena_spotted_mozambique.jpg
+   Search: "Crocuta crocuta" or "Hyena - Spotted (Mozambique)"
+
+35. Fish - African Lungfish
+   Scientific: Protopterus annectens
+   Filename: fish_african_lungfish.jpg
+   Search: "Protopterus annectens" or "Fish - African Lungfish"
+
+36. Spider - Rainforest Tarantula
+   Scientific: Pterinochilus murinus
+   Filename: spider_rainforest_tarantula.jpg
+   Search: "Pterinochilus murinus" or "Spider - Rainforest Tarantula"
+
+37. Rhino - Black (Zimbabwe)
+   Scientific: Diceros bicornis
+   Filename: rhino_black_zimbabwe.jpg
+   Search: "Diceros bicornis" or "Rhino - Black (Zimbabwe)"
+
+38. African Wild Dog
+   Scientific: Lycaon pictus
+   Filename: african_wild_dog.jpg
+   Search: "Lycaon pictus" or "African Wild Dog"
+
+39. Warthog (Zimbabwe)
+   Scientific: Phacochoerus africanus
+   Filename: warthog_zimbabwe.jpg
+   Search: "Phacochoerus africanus" or "Warthog (Zimbabwe)"
+
+40. Fish - Electric Catfish (Zimbabwe)
+   Scientific: Malapterurus electricus
+   Filename: fish_electric_catfish_zimbabwe.jpg
+   Search: "Malapterurus electricus" or "Fish - Electric Catfish (Zimbabwe)"
+
+41. Cheetah (Zimbabwe)
+   Scientific: Acinonyx jubatus
+   Filename: cheetah_zimbabwe.jpg
+   Search: "Acinonyx jubatus" or "Cheetah (Zimbabwe)"
+
+42. Shrew - Giant Elephant (Sengi)
+   Scientific: Rhynchocyon petersi
+   Filename: shrew_giant_elephant_sengi.jpg
+   Search: "Rhynchocyon petersi" or "Shrew - Giant Elephant (Sengi)"
+
+43. Eagle - African Fish
+   Scientific: Haliaeetus vocifer
+   Filename: eagle_african_fish.jpg
+   Search: "Haliaeetus vocifer" or "Eagle - African Fish"
+
+44. Spider - Baboon (Zimbabwe)
+   Scientific: Harpactira gigas
+   Filename: spider_baboon_zimbabwe.jpg
+   Search: "Harpactira gigas" or "Spider - Baboon (Zimbabwe)"
+
+45. Dung Beetle - Ball-rolling
+   Scientific: Kheper lamarcki
+   Filename: dung_beetle_ball_rolling.jpg
+   Search: "Kheper lamarcki" or "Dung Beetle - Ball-rolling"
+
+46. Tortoise - Leopard
+   Scientific: Stigmochelys pardalis
+   Filename: tortoise_leopard.jpg
+   Search: "Stigmochelys pardalis" or "Tortoise - Leopard"
+
+47. Viper - Milos
+   Scientific: Macrovipera schweizeri
+   Filename: viper_milos.jpg
+   Search: "Macrovipera schweizeri" or "Viper - Milos"
+
+48. Sea Turtle - Loggerhead (Greece)
+   Scientific: Caretta caretta
+   Filename: sea_turtle_loggerhead_greece.jpg
+   Search: "Caretta caretta" or "Sea Turtle - Loggerhead (Greece)"
+
+49. Wall Lizard - Cretan
+   Scientific: Podarcis cretensis
+   Filename: wall_lizard_cretan.jpg
+   Search: "Podarcis cretensis" or "Wall Lizard - Cretan"
+
+50. Monk Seal - Mediterranean
+   Scientific: Monachus monachus
+   Filename: monk_seal_mediterranean.jpg
+   Search: "Monachus monachus" or "Monk Seal - Mediterranean"
+
+51. Buttercup Moth
+   Scientific: Noctua interjecta
+   Filename: buttercup_moth.jpg
+   Search: "Noctua interjecta" or "Buttercup Moth"
+
+52. Shrew - Bicoloured
+   Scientific: Crocidura leucodon
+   Filename: shrew_bicoloured.jpg
+   Search: "Crocidura leucodon" or "Shrew - Bicoloured"
+
+53. Dolphin - Common (Mediterranean)
+   Scientific: Delphinus delphis
+   Filename: dolphin_common_mediterranean.jpg
+   Search: "Delphinus delphis" or "Dolphin - Common (Mediterranean)"
+
+54. Scorpion - Italian
+   Scientific: Euscorpius italicus
+   Filename: scorpion_italian.jpg
+   Search: "Euscorpius italicus" or "Scorpion - Italian"
+
+55. Chough - Red-billed (Hellas)
+   Scientific: Pyrrhocorax pyrrhocorax
+   Filename: chough_red_billed_hellas.jpg
+   Search: "Pyrrhocorax pyrrhocorax" or "Chough - Red-billed (Hellas)"
+
+56. Gecko - Turkish
+   Scientific: Hemidactylus turcicus
+   Filename: gecko_turkish.jpg
+   Search: "Hemidactylus turcicus" or "Gecko - Turkish"
+
+57. Sloth - Hoffmann's Two-toed
+   Scientific: Choloepus hoffmanni
+   Filename: sloth_hoffmann_s_two_toed.jpg
+   Search: "Choloepus hoffmanni" or "Sloth - Hoffmann's Two-toed"
+
+58. Spider - Wandering (Brazilian)
+   Scientific: Phoneutria nigriventer
+   Filename: spider_wandering_brazilian.jpg
+   Search: "Phoneutria nigriventer" or "Spider - Wandering (Brazilian)"
+
+59. Frog - Red-eyed Tree
+   Scientific: Agalychnis callidryas
+   Filename: frog_red_eyed_tree.jpg
+   Search: "Agalychnis callidryas" or "Frog - Red-eyed Tree"
+
+60. Ant - Bullet
+   Scientific: Paraponera clavata
+   Filename: ant_bullet.jpg
+   Search: "Paraponera clavata" or "Ant - Bullet"
+
+61. Toucan - Keel-billed (Breeding)
+   Scientific: Ramphastos sulfuratus
+   Filename: toucan_keel_billed_breeding.jpg
+   Search: "Ramphastos sulfuratus" or "Toucan - Keel-billed (Breeding)"
+
+62. Basilisk - Plumed
+   Scientific: Basiliscus plumifrons
+   Filename: basilisk_plumed.jpg
+   Search: "Basiliscus plumifrons" or "Basilisk - Plumed"
+
+63. Bat - Tent-making (Ectophylla alba)
+   Scientific: Ectophylla alba
+   Filename: bat_tent_making_ectophylla_alba.jpg
+   Search: "Ectophylla alba" or "Bat - Tent-making (Ectophylla alba)"
+
+64. Cat - Margay
+   Scientific: Leopardus wiedii
+   Filename: cat_margay.jpg
+   Search: "Leopardus wiedii" or "Cat - Margay"
+
+65. Giant Otter
+   Scientific: Pteronura brasiliensis
+   Filename: giant_otter.jpg
+   Search: "Pteronura brasiliensis" or "Giant Otter"
+
+66. Harpy Eagle (Guyana)
+   Scientific: Harpia harpyja
+   Filename: harpy_eagle_guyana.jpg
+   Search: "Harpia harpyja" or "Harpy Eagle (Guyana)"
+
+67. Cock-of-the-Rock - Guianan
+   Scientific: Rupicola rupicola
+   Filename: cock_of_the_rock_guianan.jpg
+   Search: "Rupicola rupicola" or "Cock-of-the-Rock - Guianan"
+
+68. Treefrog - Gliding
+   Scientific: Hyla eximia
+   Filename: treefrog_gliding.jpg
+   Search: "Hyla eximia" or "Treefrog - Gliding"
+
+69. Toucan - Channel-billed
+   Scientific: Ramphastos vitellinus
+   Filename: toucan_channel_billed.jpg
+   Search: "Ramphastos vitellinus" or "Toucan - Channel-billed"
+
+70. Tegu - Gold
+   Scientific: Tupinambis teguixin
+   Filename: tegu_gold.jpg
+   Search: "Tupinambis teguixin" or "Tegu - Gold"
+
+71. Cayman - Black (Guyana)
+   Scientific: Melanosuchus niger
+   Filename: cayman_black_guyana.jpg
+   Search: "Melanosuchus niger" or "Cayman - Black (Guyana)"
+
+72. Fish - Peacock Bass
+   Scientific: Cichla ocellaris
+   Filename: fish_peacock_bass.jpg
+   Search: "Cichla ocellaris" or "Fish - Peacock Bass"
+
+73. Oryx - Arabian
+   Scientific: Oryx leucoryx
+   Filename: oryx_arabian.jpg
+   Search: "Oryx leucoryx" or "Oryx - Arabian"
+
+74. Falcon - Peregrine
+   Scientific: Falco peregrinus
+   Filename: falcon_peregrine.jpg
+   Search: "Falco peregrinus" or "Falcon - Peregrine"
+
+75. Sand Viper - Arabian Horned
+   Scientific: Cerastes gasperettii
+   Filename: sand_viper_arabian_horned.jpg
+   Search: "Cerastes gasperettii" or "Sand Viper - Arabian Horned"
+
+76. Fox - Red (Arabian)
+   Scientific: Vulpes vulpes arabica
+   Filename: fox_red_arabian.jpg
+   Search: "Vulpes vulpes arabica" or "Fox - Red (Arabian)"
+
+77. Beetle - Scarab (Dung)
+   Scientific: Scarabaeus sacer
+   Filename: beetle_scarab_dung.jpg
+   Search: "Scarabaeus sacer" or "Beetle - Scarab (Dung)"
+
+78. Gecko - Arabian Leaf-toed
+   Scientific: Asaccus gallagheri
+   Filename: gecko_arabian_leaf_toed.jpg
+   Search: "Asaccus gallagheri" or "Gecko - Arabian Leaf-toed"
+
+79. Tortoise - Desert
+   Scientific: Testudo graeca
+   Filename: tortoise_desert.jpg
+   Search: "Testudo graeca" or "Tortoise - Desert"
+
+80. Dolphin - Indian Ocean Humpback | Sousa plumbea
+   Scientific: Sousa plumbea
+   Filename: dolphin_indian_ocean_humpback_sousa_plumbea.jpg
+   Search: "Sousa plumbea" or "Dolphin - Indian Ocean Humpback | Sousa plumbea"
+
+81. Indus River Dolphin
+   Scientific: Platanista minor
+   Filename: indus_river_dolphin.jpg
+   Search: "Platanista minor" or "Indus River Dolphin"
+
+82. Markhor (Screw-horn Goat)
+   Scientific: Capra falconeri
+   Filename: markhor_screw_horn_goat.jpg
+   Search: "Capra falconeri" or "Markhor (Screw-horn Goat)"
+
+83. Snow Leopard (Pakistan)
+   Scientific: Panthera uncia
+   Filename: snow_leopard_pakistan.jpg
+   Search: "Panthera uncia" or "Snow Leopard (Pakistan)"
+
+84. Fox - Red (Karakoram)
+   Scientific: Vulpes vulpes montana
+   Filename: fox_red_karakoram.jpg
+   Search: "Vulpes vulpes montana" or "Fox - Red (Karakoram)"
+
+85. Ibex - Siberian
+   Scientific: Capra sibirica
+   Filename: ibex_siberian.jpg
+   Search: "Capra sibirica" or "Ibex - Siberian"
+
+86. Vulture - Himalayan Griffon
+   Scientific: Gyps himalayensis
+   Filename: vulture_himalayan_griffon.jpg
+   Search: "Gyps himalayensis" or "Vulture - Himalayan Griffon"
+
+87. Crocodile - Marsh (Mugger)
+   Scientific: Crocodylus palustris
+   Filename: crocodile_marsh_mugger.jpg
+   Search: "Crocodylus palustris" or "Crocodile - Marsh (Mugger)"
+
+88. Turtle - Central Asian Tortoise
+   Scientific: Testudo horsfieldii
+   Filename: turtle_central_asian_tortoise.jpg
+   Search: "Testudo horsfieldii" or "Turtle - Central Asian Tortoise"
+
+89. Sloth - Pygmy Three-toed
+   Scientific: Bradypus pygmaeus
+   Filename: sloth_pygmy_three_toed.jpg
+   Search: "Bradypus pygmaeus" or "Sloth - Pygmy Three-toed"
+
+90. Frog - Golden (Panama)
+   Scientific: Atelopus zeteki
+   Filename: frog_golden_panama.jpg
+   Search: "Atelopus zeteki" or "Frog - Golden (Panama)"
+
+91. Trogon - Collared
+   Scientific: Trogon collaris
+   Filename: trogon_collared.jpg
+   Search: "Trogon collaris" or "Trogon - Collared"
+
+92. Monkey - Capuchin (White-faced)
+   Scientific: Cebus imitator
+   Filename: monkey_capuchin_white_faced.jpg
+   Search: "Cebus imitator" or "Monkey - Capuchin (White-faced)"
+
+93. Ant - Leaf-cutter (Panama)
+   Scientific: Atta colombica
+   Filename: ant_leaf_cutter_panama.jpg
+   Search: "Atta colombica" or "Ant - Leaf-cutter (Panama)"
+
+94. Eel - Moray (Green)
+   Scientific: Gymnothorax funebris
+   Filename: eel_moray_green.jpg
+   Search: "Gymnothorax funebris" or "Eel - Moray (Green)"
+
+95. Basilik - Common
+   Scientific: Basiliscus basiliscus
+   Filename: basilik_common.jpg
+   Search: "Basiliscus basiliscus" or "Basilik - Common"
+
+96. Hummingbird - Violet-headed
+   Scientific: Klais guimeti
+   Filename: hummingbird_violet_headed.jpg
+   Search: "Klais guimeti" or "Hummingbird - Violet-headed"
+
+97. African Wild Dog (Zambia)
+   Scientific: Lycaon pictus
+   Filename: african_wild_dog_zambia.jpg
+   Search: "Lycaon pictus" or "African Wild Dog (Zambia)"
+
+98. Pangolin - Temminck's (Ground)
+   Scientific: Smutsia temminckii
+   Filename: pangolin_temminck_s_ground.jpg
+   Search: "Smutsia temminckii" or "Pangolin - Temminck's (Ground)"
+
+99. Puku (Antelope)
+   Scientific: Kobus vardonii
+   Filename: puku_antelope.jpg
+   Search: "Kobus vardonii" or "Puku (Antelope)"
+
+100. Fish - African Lungfish (Zambia)
+   Scientific: Protopterus annectens
+   Filename: fish_african_lungfish_zambia.jpg
+   Search: "Protopterus annectens" or "Fish - African Lungfish (Zambia)"
+
+101. Pel's Fishing Owl
+   Scientific: Scotopelia peli
+   Filename: pel_s_fishing_owl.jpg
+   Search: "Scotopelia peli" or "Pel's Fishing Owl"
+
+102. Hyena - Spotted (Zambia)
+   Scientific: Crocuta crocuta
+   Filename: hyena_spotted_zambia.jpg
+   Search: "Crocuta crocuta" or "Hyena - Spotted (Zambia)"
+
+103. Fish - Electric Catfish (Zambia)
+   Scientific: Malapterurus electricus
+   Filename: fish_electric_catfish_zambia.jpg
+   Search: "Malapterurus electricus" or "Fish - Electric Catfish (Zambia)"
+
+104. Giraffe - Maasai
+   Scientific: Giraffa tippelskirchi
+   Filename: giraffe_maasai.jpg
+   Search: "Giraffa tippelskirchi" or "Giraffe - Maasai"
+
+105. Flamingo - Lesser
+   Scientific: Phoeniconaias minor
+   Filename: flamingo_lesser.jpg
+   Search: "Phoeniconaias minor" or "Flamingo - Lesser"
+
+106. Chameleon - Jackson's
+   Scientific: Trioceros jacksonii
+   Filename: chameleon_jackson_s.jpg
+   Search: "Trioceros jacksonii" or "Chameleon - Jackson's"
+
+107. Rhino - Black (Subspecies)
+   Scientific: Diceros bicornis
+   Filename: rhino_black_subspecies.jpg
+   Search: "Diceros bicornis" or "Rhino - Black (Subspecies)"
+
+108. Termite - Fungus-growing
+   Scientific: Macrotermes bellicosus
+   Filename: termite_fungus_growing.jpg
+   Search: "Macrotermes bellicosus" or "Termite - Fungus-growing"
+
+109. Genet - Large-spotted
+   Scientific: Genetta tigrina
+   Filename: genet_large_spotted.jpg
+   Search: "Genetta tigrina" or "Genet - Large-spotted"
+
+110. Fish - Tilapia (Kenya)
+   Scientific: Oreochromis niloticus
+   Filename: fish_tilapia_kenya.jpg
+   Search: "Oreochromis niloticus" or "Fish - Tilapia (Kenya)"
+
+111. Sunbird - Scarlet-chested (Kenya)
+   Scientific: Chalcomitra senegalensis
+   Filename: sunbird_scarlet_chested_kenya.jpg
+   Search: "Chalcomitra senegalensis" or "Sunbird - Scarlet-chested (Kenya)"
+
+112. Hyrax - Rock (Kenya)
+   Scientific: Procavia capensis
+   Filename: hyrax_rock_kenya.jpg
+   Search: "Procavia capensis" or "Hyrax - Rock (Kenya)"
+
+113. Jackal - Golden (Kenya)
+   Scientific: Canis aureus
+   Filename: jackal_golden_kenya.jpg
+   Search: "Canis aureus" or "Jackal - Golden (Kenya)"
+
+114. Alpine Salamander
+   Scientific: Salamandra atra
+   Filename: alpine_salamander.jpg
+   Search: "Salamandra atra" or "Alpine Salamander"
+
+115. Marmot - Alpine
+   Scientific: Marmota marmota
+   Filename: marmot_alpine.jpg
+   Search: "Marmota marmota" or "Marmot - Alpine"
+
+116. Ibex - Alpine (Switzerland)
+   Scientific: Capra ibex
+   Filename: ibex_alpine_switzerland.jpg
+   Search: "Capra ibex" or "Ibex - Alpine (Switzerland)"
+
+117. Lammergeier (Bearded Vulture)
+   Scientific: Gypaetus barbatus
+   Filename: lammergeier_bearded_vulture.jpg
+   Search: "Gypaetus barbatus" or "Lammergeier (Bearded Vulture)"
+
+118. Chamois
+   Scientific: Rupicapra rupicapra
+   Filename: chamois.jpg
+   Search: "Rupicapra rupicapra" or "Chamois"
+
+119. Viper - Asp (Switzerland)
+   Scientific: Vipera aspis
+   Filename: viper_asp_switzerland.jpg
+   Search: "Vipera aspis" or "Viper - Asp (Switzerland)"
+
+120. Fish - Lake Trout (Féra)
+   Scientific: Coregonus féra
+   Filename: fish_lake_trout_f_ra.jpg
+   Search: "Coregonus féra" or "Fish - Lake Trout (Féra)"
+
+121. Apollo Butterfly
+   Scientific: Parnassius apollo
+   Filename: apollo_butterfly.jpg
+   Search: "Parnassius apollo" or "Apollo Butterfly"
+
+122. Swift - Alpine
+   Scientific: Tachymarptis melba
+   Filename: swift_alpine.jpg
+   Search: "Tachymarptis melba" or "Swift - Alpine"
+
+123. Dormouse - Edible (Switzerland)
+   Scientific: Glis glis
+   Filename: dormouse_edible_switzerland.jpg
+   Search: "Glis glis" or "Dormouse - Edible (Switzerland)"
+
+124. Siberian Tiger (Amur)
+   Scientific: Panthera tigris altaica
+   Filename: siberian_tiger_amur.jpg
+   Search: "Panthera tigris altaica" or "Siberian Tiger (Amur)"
+
+125. Walrus (Pacific)
+   Scientific: Odobenus rosmarus divergens
+   Filename: walrus_pacific.jpg
+   Search: "Odobenus rosmarus divergens" or "Walrus (Pacific)"
+
+126. Bear - Polar
+   Scientific: Ursus maritimus
+   Filename: bear_polar.jpg
+   Search: "Ursus maritimus" or "Bear - Polar"
+
+127. Lynx - Eurasian (Russia)
+   Scientific: Lynx lynx
+   Filename: lynx_eurasian_russia.jpg
+   Search: "Lynx lynx" or "Lynx - Eurasian (Russia)"
+
+128. Arctic Fox (Russia)
+   Scientific: Vulpes lagopus
+   Filename: arctic_fox_russia.jpg
+   Search: "Vulpes lagopus" or "Arctic Fox (Russia)"
+
+129. Yak - Domestic
+   Scientific: Bos grunniens
+   Filename: yak_domestic.jpg
+   Search: "Bos grunniens" or "Yak - Domestic"
+
+130. Owl - Ural
+   Scientific: Strix uralensis
+   Filename: owl_ural.jpg
+   Search: "Strix uralensis" or "Owl - Ural"
+
+131. Crane - Siberian
+   Scientific: Leucogeranus leucogeranus
+   Filename: crane_siberian.jpg
+   Search: "Leucogeranus leucogeranus" or "Crane - Siberian"
+
+132. Salmon - Pink (Humpback)
+   Scientific: Oncorhynchus gorbuscha
+   Filename: salmon_pink_humpback.jpg
+   Search: "Oncorhynchus gorbuscha" or "Salmon - Pink (Humpback)"
+
+133. Gazelle - Dorcas (Egypt)
+   Scientific: Gazella dorcas
+   Filename: gazelle_dorcas_egypt.jpg
+   Search: "Gazella dorcas" or "Gazelle - Dorcas (Egypt)"
+
+134. Skink - Sandfish (Egypt)
+   Scientific: Scincus scincus
+   Filename: skink_sandfish_egypt.jpg
+   Search: "Scincus scincus" or "Skink - Sandfish (Egypt)"
+
+135. Fox - Fennec (Egypt)
+   Scientific: Vulpes zerda
+   Filename: fox_fennec_egypt.jpg
+   Search: "Vulpes zerda" or "Fox - Fennec (Egypt)"
+
+136. Cobra - Egyptian
+   Scientific: Naja haje
+   Filename: cobra_egyptian.jpg
+   Search: "Naja haje" or "Cobra - Egyptian"
+
+137. Scarab Beetle - Sacred
+   Scientific: Scarabaeus sacer
+   Filename: scarab_beetle_sacred.jpg
+   Search: "Scarabaeus sacer" or "Scarab Beetle - Sacred"
+
+138. Monitor Lizard - Desert
+   Scientific: Varanus griseus
+   Filename: monitor_lizard_desert.jpg
+   Search: "Varanus griseus" or "Monitor Lizard - Desert"
+
+139. Cat - African Wild
+   Scientific: Felis lybica
+   Filename: cat_african_wild.jpg
+   Search: "Felis lybica" or "Cat - African Wild"
+
+140. Vulture - Hooded
+   Scientific: Necrosyrtes monachus
+   Filename: vulture_hooded.jpg
+   Search: "Necrosyrtes monachus" or "Vulture - Hooded"
+
+141. Jerboa - Lesser Egyptian (Egypt)
+   Scientific: Jaculus jaculus
+   Filename: jerboa_lesser_egyptian_egypt.jpg
+   Search: "Jaculus jaculus" or "Jerboa - Lesser Egyptian (Egypt)"
+
+142. Turtle - Green Sea (Red Sea)
+   Scientific: Chelonia mydas
+   Filename: turtle_green_sea_red_sea.jpg
+   Search: "Chelonia mydas" or "Turtle - Green Sea (Red Sea)"
+
+143. Alpine Newt
+   Scientific: Ichthyosaura alpestris
+   Filename: alpine_newt.jpg
+   Search: "Ichthyosaura alpestris" or "Alpine Newt"
+
+144. Chamois (Austria)
+   Scientific: Rupicapra rupicapra
+   Filename: chamois_austria.jpg
+   Search: "Rupicapra rupicapra" or "Chamois (Austria)"
+
+145. Salamander - Fire (Austria)
+   Scientific: Salamandra salamandra
+   Filename: salamander_fire_austria.jpg
+   Search: "Salamandra salamandra" or "Salamander - Fire (Austria)"
+
+146. Eagle - Golden (Austria)
+   Scientific: Aquila chrysaetos
+   Filename: eagle_golden_austria.jpg
+   Search: "Aquila chrysaetos" or "Eagle - Golden (Austria)"
+
+147. Marmot - Alpine (Austria)
+   Scientific: Marmota marmota
+   Filename: marmot_alpine_austria.jpg
+   Search: "Marmota marmota" or "Marmot - Alpine (Austria)"
+
+148. Dormouse - Edible (Austria)
+   Scientific: Glis glis
+   Filename: dormouse_edible_austria.jpg
+   Search: "Glis glis" or "Dormouse - Edible (Austria)"
+
+149. Fish - Danube Salmon
+   Scientific: Hucho hucho
+   Filename: fish_danube_salmon.jpg
+   Search: "Hucho hucho" or "Fish - Danube Salmon"
+
+150. Adder (Vipera berus - Austria)
+   Scientific: Vipera berus
+   Filename: adder_vipera_berus_austria.jpg
+   Search: "Vipera berus" or "Adder (Vipera berus - Austria)"
+
+151. Swift - Alpine (Austria)
+   Scientific: Tachymarptis melba
+   Filename: swift_alpine_austria.jpg
+   Search: "Tachymarptis melba" or "Swift - Alpine (Austria)"
+
+152. Beetle - European Stag
+   Scientific: Lucanus cervus
+   Filename: beetle_european_stag.jpg
+   Search: "Lucanus cervus" or "Beetle - European Stag"
+
+153. Rhino - Black (Namibia)
+   Scientific: Diceros bicornis
+   Filename: rhino_black_namibia.jpg
+   Search: "Diceros bicornis" or "Rhino - Black (Namibia)"
+
+154. Gecko - Web-footed
+   Scientific: Palmatogecko rangei
+   Filename: gecko_web_footed.jpg
+   Search: "Palmatogecko rangei" or "Gecko - Web-footed"
+
+155. Beetle - Toktokkie (Stenocara)
+   Scientific: Stenocara sp.
+   Filename: beetle_toktokkie_stenocara.jpg
+   Search: "Stenocara sp." or "Beetle - Toktokkie (Stenocara)"
+
+156. Fox - Bat-eared
+   Scientific: Otocyon megalotis
+   Filename: fox_bat_eared.jpg
+   Search: "Otocyon megalotis" or "Fox - Bat-eared"
+
+157. Snake - Puff Adder
+   Scientific: Bitis arietans
+   Filename: snake_puff_adder.jpg
+   Search: "Bitis arietans" or "Snake - Puff Adder"
+
+158. Ostrich (Namibia)
+   Scientific: Struthio camelus
+   Filename: ostrich_namibia.jpg
+   Search: "Struthio camelus" or "Ostrich (Namibia)"
+
+159. Cat - Black-footed
+   Scientific: Felis nigripes
+   Filename: cat_black_footed.jpg
+   Search: "Felis nigripes" or "Cat - Black-footed"
+
+160. Seal - Cape Fur (Namibia)
+   Scientific: Arctocephalus pusillus
+   Filename: seal_cape_fur_namibia.jpg
+   Search: "Arctocephalus pusillus" or "Seal - Cape Fur (Namibia)"
+
+161. Hyena - Spotted (Namibia)
+   Scientific: Crocuta crocuta
+   Filename: hyena_spotted_namibia.jpg
+   Search: "Crocuta crocuta" or "Hyena - Spotted (Namibia)"
+
+162. Gecko - Barking
+   Scientific: Ptenopus garrulus
+   Filename: gecko_barking.jpg
+   Search: "Ptenopus garrulus" or "Gecko - Barking"
+
+163. Bird-of-Paradise - Raggiana
+   Scientific: Paradisaea raggiana
+   Filename: bird_of_paradise_raggiana.jpg
+   Search: "Paradisaea raggiana" or "Bird-of-Paradise - Raggiana"
+
+164. Echidna - Long-beaked
+   Scientific: Zaglossus bruijnii
+   Filename: echidna_long_beaked.jpg
+   Search: "Zaglossus bruijnii" or "Echidna - Long-beaked"
+
+165. Wrasse - Humphead (Maori)
+   Scientific: Cheilinus undulatus
+   Filename: wrasse_humphead_maori.jpg
+   Search: "Cheilinus undulatus" or "Wrasse - Humphead (Maori)"
+
+166. Python - Green Tree
+   Scientific: Morelia viridis
+   Filename: python_green_tree.jpg
+   Search: "Morelia viridis" or "Python - Green Tree"
+
+167. Cassowary - Northern
+   Scientific: Casuarius unappendiculatus
+   Filename: cassowary_northern.jpg
+   Search: "Casuarius unappendiculatus" or "Cassowary - Northern"
+
+168. Frog - White-lipped Tree
+   Scientific: Litoria infrafrenata
+   Filename: frog_white_lipped_tree.jpg
+   Search: "Litoria infrafrenata" or "Frog - White-lipped Tree"
+
+169. Salamander - Giant Japanese
+   Scientific: Andrias japonicus
+   Filename: salamander_giant_japanese.jpg
+   Search: "Andrias japonicus" or "Salamander - Giant Japanese"
+
+170. Crab - Japanese Spider
+   Scientific: Macrocheira kaempferi
+   Filename: crab_japanese_spider.jpg
+   Search: "Macrocheira kaempferi" or "Crab - Japanese Spider"
+
+171. Macaque - Japanese (Snow Monkey)
+   Scientific: Macaca fuscata
+   Filename: macaque_japanese_snow_monkey.jpg
+   Search: "Macaca fuscata" or "Macaque - Japanese (Snow Monkey)"
+
+172. Hornet - Giant Asian (Japan)
+   Scientific: Vespa mandarinia
+   Filename: hornet_giant_asian_japan.jpg
+   Search: "Vespa mandarinia" or "Hornet - Giant Asian (Japan)"
+
+173. Flying Squirrel - Japanese Dwarf
+   Scientific: Pteromys momonga
+   Filename: flying_squirrel_japanese_dwarf.jpg
+   Search: "Pteromys momonga" or "Flying Squirrel - Japanese Dwarf"
+
+174. Catfish - Electric (Japan)
+   Scientific: Parasilurus asotus
+   Filename: catfish_electric_japan.jpg
+   Search: "Parasilurus asotus" or "Catfish - Electric (Japan)"
+
+175. Beetle - Flightless Dung
+   Scientific: Circellium bacchus
+   Filename: beetle_flightless_dung.jpg
+   Search: "Circellium bacchus" or "Beetle - Flightless Dung"
+
+176. Seal - Cape Fur
+   Scientific: Arctocephalus pusillus
+   Filename: seal_cape_fur.jpg
+   Search: "Arctocephalus pusillus" or "Seal - Cape Fur"
+
+177. Spider - Baboon (Hairy)
+   Scientific: Harpactira namaquensis
+   Filename: spider_baboon_hairy.jpg
+   Search: "Harpactira namaquensis" or "Spider - Baboon (Hairy)"
+
+178. Shrew - Elephant (Sengi)
+   Scientific: Macroscelides proboscideus
+   Filename: shrew_elephant_sengi.jpg
+   Search: "Macroscelides proboscideus" or "Shrew - Elephant (Sengi)"
+
+179. Wrasse - Hottentot
+   Scientific: Semicossyphus pulcher
+   Filename: wrasse_hottentot.jpg
+   Search: "Semicossyphus pulcher" or "Wrasse - Hottentot"
+
+180. Frog - Rain (Desert)
+   Scientific: Breviceps namaquensis
+   Filename: frog_rain_desert.jpg
+   Search: "Breviceps namaquensis" or "Frog - Rain (Desert)"
+
+181. Darwin's Frog (Chile)
+   Scientific: Rhinoderma darwinii
+   Filename: darwin_s_frog_chile.jpg
+   Search: "Rhinoderma darwinii" or "Darwin's Frog (Chile)"
+
+182. Pudu (Southern)
+   Scientific: Pudu puda
+   Filename: pudu_southern.jpg
+   Search: "Pudu puda" or "Pudu (Southern)"
+
+183. Condor - Andean
+   Scientific: Vultur gryphus
+   Filename: condor_andean.jpg
+   Search: "Vultur gryphus" or "Condor - Andean"
+
+184. Penguin - Humboldt
+   Scientific: Spheniscus humboldti
+   Filename: penguin_humboldt.jpg
+   Search: "Spheniscus humboldti" or "Penguin - Humboldt"
+
+185. Sea Lion - South American
+   Scientific: Otaria flavescens
+   Filename: sea_lion_south_american.jpg
+   Search: "Otaria flavescens" or "Sea Lion - South American"
+
+186. Chilean False Tarantula
+   Scientific: Acanthogonatus campana
+   Filename: chilean_false_tarantula.jpg
+   Search: "Acanthogonatus campana" or "Chilean False Tarantula"
+
+187. Frog - Purple (Pig-nosed Frog)
+   Scientific: Nasikabatrachus sahyadrensis
+   Filename: frog_purple_pig_nosed_frog.jpg
+   Search: "Nasikabatrachus sahyadrensis" or "Frog - Purple (Pig-nosed Frog)"
+
+188. Langur - Hanuman
+   Scientific: Semnopithecus entellus
+   Filename: langur_hanuman.jpg
+   Search: "Semnopithecus entellus" or "Langur - Hanuman"
+
+189. Wasp - Giant Asian Hornet
+   Scientific: Vespa mandarinia
+   Filename: wasp_giant_asian_hornet.jpg
+   Search: "Vespa mandarinia" or "Wasp - Giant Asian Hornet"
+
+190. Gavial - Ganges
+   Scientific: Gavialis gangeticus
+   Filename: gavial_ganges.jpg
+   Search: "Gavialis gangeticus" or "Gavial - Ganges"
+
+191. Frog - Indian Bullfrog
+   Scientific: Hoplobatrachus tigerinus
+   Filename: frog_indian_bullfrog.jpg
+   Search: "Hoplobatrachus tigerinus" or "Frog - Indian Bullfrog"
+
+192. Python - Indian
+   Scientific: Python molurus
+   Filename: python_indian.jpg
+   Search: "Python molurus" or "Python - Indian"
+
+193. Cock-of-the-Rock - Andean
+   Scientific: Rupicola peruvianus
+   Filename: cock_of_the_rock_andean.jpg
+   Search: "Rupicola peruvianus" or "Cock-of-the-Rock - Andean"
+
+194. Toucan - White-throated
+   Scientific: Ramphastos tucanus
+   Filename: toucan_white_throated.jpg
+   Search: "Ramphastos tucanus" or "Toucan - White-throated"
+
+195. Frog - Poison Dart (R. ventrimaculatus)
+   Scientific: Ranitomeya ventrimaculata
+   Filename: frog_poison_dart_r_ventrimaculatus.jpg
+   Search: "Ranitomeya ventrimaculata" or "Frog - Poison Dart (R. ventrimaculatus)"
+
+196. Boa - Rainbow (Peruvian)
+   Scientific: Epicrates cenchria
+   Filename: boa_rainbow_peruvian.jpg
+   Search: "Epicrates cenchria" or "Boa - Rainbow (Peruvian)"
+
+197. Cat - Andean Mountain
+   Scientific: Leopardus jacobita
+   Filename: cat_andean_mountain.jpg
+   Search: "Leopardus jacobita" or "Cat - Andean Mountain"
+
+198. Anaconda - Bolivian
+   Scientific: Eunectes beniensis
+   Filename: anaconda_bolivian.jpg
+   Search: "Eunectes beniensis" or "Anaconda - Bolivian"
+
+199. Monkey - Bolivian Red Howler
+   Scientific: Alouatta sara
+   Filename: monkey_bolivian_red_howler.jpg
+   Search: "Alouatta sara" or "Monkey - Bolivian Red Howler"
+
+200. Sloth - Maned (Bolivian)
+   Scientific: Bradypus torquatus
+   Filename: sloth_maned_bolivian.jpg
+   Search: "Bradypus torquatus" or "Sloth - Maned (Bolivian)"
+
+201. Condor - Andean (Bolivia)
+   Scientific: Vultur gryphus
+   Filename: condor_andean_bolivia.jpg
+   Search: "Vultur gryphus" or "Condor - Andean (Bolivia)"
+
+202. Fish - Pacu
+   Scientific: Colossoma macropomum
+   Filename: fish_pacu.jpg
+   Search: "Colossoma macropomum" or "Fish - Pacu"
+
+203. Frog - Poison Dart (E. bilinguis)
+   Scientific: Epipedobates bilinguis
+   Filename: frog_poison_dart_e_bilinguis.jpg
+   Search: "Epipedobates bilinguis" or "Frog - Poison Dart (E. bilinguis)"
+
+204. Marine Iguana (Ecuador - Galapagos)
+   Scientific: Amblyrhynchus cristatus
+   Filename: marine_iguana_ecuador_galapagos.jpg
+   Search: "Amblyrhynchus cristatus" or "Marine Iguana (Ecuador - Galapagos)"
+
+205. Gecko - Leaf-tailed (Ecuador)
+   Scientific: Phyllodactylus reissii
+   Filename: gecko_leaf_tailed_ecuador.jpg
+   Search: "Phyllodactylus reissii" or "Gecko - Leaf-tailed (Ecuador)"
+
+206. Dolphin - Pink River (Ecuador)
+   Scientific: Inia geoffrensis
+   Filename: dolphin_pink_river_ecuador.jpg
+   Search: "Inia geoffrensis" or "Dolphin - Pink River (Ecuador)"
+
+207. Cat - Oncilla (Tiger Cat)
+   Scientific: Leopardus tigrinus
+   Filename: cat_oncilla_tiger_cat.jpg
+   Search: "Leopardus tigrinus" or "Cat - Oncilla (Tiger Cat)"
+
+208. Python - Indian
+   Scientific: Python molurus
+   Filename: python_indian.jpg
+   Search: "Python molurus" or "Python - Indian"
+
+209. Lion - Asiatic
+   Scientific: Panthera leo persica
+   Filename: lion_asiatic.jpg
+   Search: "Panthera leo persica" or "Lion - Asiatic"
+
+210. Turtle - Cantor's Giant Softshell
+   Scientific: Pelochelys cantorii
+   Filename: turtle_cantor_s_giant_softshell.jpg
+   Search: "Pelochelys cantorii" or "Turtle - Cantor's Giant Softshell"
+
+211. Antelope - Nilgai (Blue Bull)
+   Scientific: Boselaphus tragocamelus
+   Filename: antelope_nilgai_blue_bull.jpg
+   Search: "Boselaphus tragocamelus" or "Antelope - Nilgai (Blue Bull)"
+
+=================================================================
+TOTAL: 211 animals still need local images
+Already have images: 465
+=================================================================

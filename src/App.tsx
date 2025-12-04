@@ -4,12 +4,14 @@ import GlobeView, { type GlobeViewHandle } from './components/GlobeView';
 import FactCard from './components/FactCard';
 import Starfield from './components/Starfield';
 import HUD from './components/HUD';
+import MobileMenu from './components/MobileMenu';
 import WelcomeOverlay from './components/WelcomeOverlay';
-import { buildIndex, findNearest, type Point } from './lib/spatial';
+import { buildIndex, findNearest, getDistanceKm, type Point } from './lib/spatial';
 import animalsDataRaw from './data/animals.json';
 import whichCountry from 'which-country';
 import iso3166 from 'iso-3166-1';
 import { detectOcean } from './lib/oceanDetector';
+import { useProgress } from './hooks/useProgress';
 
 import GlobeControls, { type GlobeStyle } from './components/GlobeControls';
 
@@ -24,6 +26,8 @@ function App() {
 
   // Cast the raw JSON to Point[] to satisfy TypeScript
   const animalsData = animalsDataRaw as unknown as Point[];
+
+  const { visitedCount, markAsVisited, visitedIds } = useProgress(animalsData.length);
 
   useEffect(() => {
     buildIndex(animalsData);
@@ -79,11 +83,19 @@ function App() {
       );
     }
 
-    // 4. Select a random animal from that location, or fall back to nearest
+    // 4. Select the nearest animal from that location
     let selectedAnimal: Point[];
     if (animalsAtLocation.length > 0) {
-      const randomIndex = Math.floor(Math.random() * animalsAtLocation.length);
-      selectedAnimal = [animalsAtLocation[randomIndex]];
+      // Sort by distance to the click point to ensure regional accuracy
+      // e.g. Clicking Gujarat shows Lion, Bengal shows Tiger
+      animalsAtLocation.sort((a, b) => {
+        const distA = getDistanceKm(lat, lng, a.lat, a.lng);
+        const distB = getDistanceKm(lat, lng, b.lat, b.lng);
+        return distA - distB;
+      });
+
+      // Pick the closest one
+      selectedAnimal = [animalsAtLocation[0]];
     } else {
       // Fallback: show nearest animal if region has none
       // Get 5 nearest animals and pick one randomly to ensure variety
@@ -100,13 +112,30 @@ function App() {
     // 6. Show fact card after animation completes and track this animal
     setLastShownAnimal(selectedAnimal[0]);
     setSelectedAnimals(selectedAnimal);
+    if (selectedAnimal[0].id !== undefined) {
+      markAsVisited(selectedAnimal[0].id);
+    }
   };
 
   const handleRandomDiscovery = () => {
     if (animalsData.length === 0) return;
 
-    // Pick a random animal
-    const randomAnimal = animalsData[Math.floor(Math.random() * animalsData.length)];
+    // Filter for unvisited animals
+    const unvisitedAnimals = animalsData.filter(animal =>
+      animal.id !== undefined && !visitedIds.includes(String(animal.id))
+    );
+
+    let randomAnimal: Point;
+
+    if (unvisitedAnimals.length > 0) {
+      // Pick a random unvisited animal
+      console.log(`Picking from ${unvisitedAnimals.length} unvisited animals`);
+      randomAnimal = unvisitedAnimals[Math.floor(Math.random() * unvisitedAnimals.length)];
+    } else {
+      // All visited, pick from all animals
+      console.log('All animals visited, picking from full list');
+      randomAnimal = animalsData[Math.floor(Math.random() * animalsData.length)];
+    }
 
     // Simulate a click at its location
     handleLocationSelect(randomAnimal.lat, randomAnimal.lng);
@@ -115,14 +144,18 @@ function App() {
   const handleClose = () => {
     // Zoom out globe
     if (globeRef.current) {
-      globeRef.current.zoomOut();
+      if (selectedAnimals.length > 0) {
+        globeRef.current.zoomOut(selectedAnimals[0].lat, selectedAnimals[0].lng);
+      } else {
+        globeRef.current.zoomOut();
+      }
     }
     // Clear selected animals
     setSelectedAnimals([]);
   };
 
   return (
-    <div className="relative w-full h-screen overflow-hidden bg-black">
+    <div className="relative w-full h-[100dvh] overflow-hidden bg-black">
       <Starfield />
 
       <GlobeView
@@ -133,6 +166,8 @@ function App() {
         showHeatmap={false} // Disable dynamic heatmap
         heatmapData={[]} // No data needed
         isPaused={selectedAnimals.length > 0}
+        initialLat={20}
+        initialLng={-100}
       />
 
 
@@ -159,11 +194,23 @@ function App() {
 
       {!showWelcome && (
         <>
+          {/* HUD - Visible on all screens, styles handle responsiveness */}
           <HUD
             totalCount={animalsData.length}
+            visitedCount={visitedCount}
             onRandom={handleRandomDiscovery}
           />
-          <GlobeControls
+
+          {/* Desktop Globe Controls - Hidden on mobile */}
+          <div className="hidden md:block">
+            <GlobeControls
+              currentStyle={globeStyle}
+              onStyleChange={setGlobeStyle}
+            />
+          </div>
+
+          {/* Mobile Menu - Visible only on mobile */}
+          <MobileMenu
             currentStyle={globeStyle}
             onStyleChange={setGlobeStyle}
           />
