@@ -1,73 +1,151 @@
-# Wildsphere: Globe Facts
+# 🌍 WildSphere — Interactive 3D Wildlife Discovery Globe
 
-An interactive 3D globe application that displays animal facts based on geographic proximity. Built with React, Three.js (react-globe.gl), and TypeScript.
+WildSphere is an immersive, interactive 3D globe experience that lets users explore animals from around the world. Click anywhere on Earth and reveal species native to that region — complete with facts, images, animations, and a polished UI built with React + Three.js.
 
-## Features
+## ✨ Features
 
-- **Interactive 3D Globe**: Zoom, rotate, and explore the world.
-- **Nearest Neighbor Lookup**: Click anywhere to find the nearest animals using a fast spatial index (kdbush/geokdbush).
-- **Fact Cards**: View details about animals, including facts and images.
-- **Cycling**: Navigate through multiple animals at the same location.
-- **Clustering**: Markers cluster dynamically when zoomed out.
-- **Lazy Loading**: Images load only when visible.
+- 🗺️ **Interactive 3D Globe** — Rotate, zoom, and click to explore wildlife.
+- 🦁 **Region‑Based Animal Discovery** — Automatically detects the country or ocean you click and reveals the nearest matching animal.  
+- 🎴 **Dynamic Fact Cards** — Beautiful card animations featuring species info, scientific names, and imagery.
+- 🌌 **Starfield Background** — Atmospheric animated starfield for an immersive feel.
+- 🎛️ **Day / Night / Heatmap Globe Styles** — Switch between globe styles to change the experience.
+- 📱 **Responsive UI** — Mobile menu, desktop HUD, and smooth transitions.
+- 🎯 **Smart Random Discovery** — Prioritizes unvisited animals to encourage exploration.
+- 🧠 **Progress Tracking** — Tracks which animals you've already discovered.
+- 🧪 **Vitest + React Testing Library** — Integration tests validate interactions across the app.
 
-## Setup
+## 🚀 Tech Stack
 
-1.  Clone the repository.
-2.  Install dependencies:
-    ```bash
-    npm install
-    ```
-3.  Start the development server:
-    ```bash
-    npm run dev
-    ```
+- **React + TypeScript**
+- **Three.js / react‑three‑fiber** (via custom `GlobeView`)
+- **Framer Motion** for animations
+- **TailwindCSS** & custom glassmorphism UI
+- **Vitest** for testing
+- **which‑country**, **iso‑3166‑1** for geographic mapping
+- Custom modules:
+  - `/lib/spatial` for nearest‑animal logic  
+  - `/lib/oceanDetector` for ocean region detection  
+  - `useProgress` hook for exploration tracking  
 
-## Data
+---
 
-Animal data is located in `src/data/animals.json`.
-Schema:
-```json
-{
-  "id": number,
-  "name": "string",
-  "scientific_name": "string",
-  "latitude": number,
-  "longitude": number,
-  "fact": "string",
-  "image_url": "string (optional)"
-}
+## 🧭 How It Works
+
+### 🔍 1. Detect location type  
+When the user clicks the globe, the app determines whether the location is a **country** or an **ocean**.
+
+### 🐾 2. Find matching wildlife  
+It filters all animals tagged with that region and selects the **nearest** one using geographic distance calculations.
+
+### 🎬 3. Animate & reveal  
+The globe animates to the clicked coordinates, pauses rotation, and displays a **Fact Card**.
+
+### 🎲 4. Random discovery  
+The “Random” button selects from unvisited animals first — ensuring a sense of progression.
+
+---
+
+## 📂 Project Structure (Core Files)
+
+```
+App.tsx  
+ ├─ components/
+ │   ├─ GlobeView
+ │   ├─ FactCard
+ │   ├─ HUD
+ │   ├─ OrbMenu
+ │   ├─ MobileMenu
+ │   ├─ WelcomeOverlay
+ │   └─ GlobeControls
+ ├─ lib/
+ │   ├─ spatial.ts
+ │   ├─ oceanDetector.ts
+ │   └─ clustering.ts
+ ├─ data/
+ │   └─ animals.json
+ ├─ hooks/
+ │   └─ useProgress.ts
+ └─ styles/
+     ├─ App.css
+     ├─ index.css
 ```
 
-To validate data:
+---
+
+## 🧪 Testing
+
+The project includes integration tests with **Vitest**, verifying:
+
+- Globe loads correctly  
+- Clicking a location fetches and shows the correct animal  
+- FactCard closes and triggers globe zoom‑out  
+- Random discovery prioritizes unvisited species  
+
+Run tests:
+
 ```bash
-npx ts-node scripts/validate-json.ts
+npm run test
 ```
 
-## Testing
+---
 
-Run unit and integration tests:
+## 🛠️ Installation & Development
+
+### Clone the repository
+
 ```bash
-npm test
+git clone https://github.com/<your-username>/wildsphere.git
+cd wildsphere
 ```
 
-## Deployment
+### Install dependencies
 
-Build for production:
 ```bash
-./deploy.sh
+npm install
 ```
-Or manually:
+
+### Run the dev server
+
+```bash
+npm run dev
+```
+
+### Build for production
+
 ```bash
 npm run build
 ```
-The `dist` folder contains the static assets ready for deployment.
 
-## Tech Stack
+---
 
-- **Frontend**: React, TypeScript, Vite
-- **3D**: react-globe.gl, Three.js
-- **Spatial Index**: kdbush, geokdbush
-- **Clustering**: supercluster
-- **Styling**: Tailwind CSS
-- **Testing**: Vitest, React Testing Library
+## 🎨 Theme & Style
+
+The UI uses:
+
+- A dark, atmospheric **space‑themed gradient**
+- Glassmorphism UI panels (`glass-panel`, `glass-button`)
+- Smooth animations powered by Framer Motion
+- Minimalistic iconography and typography (`Inter`, `Outfit`)
+
+---
+
+## 🧭 Roadmap
+
+- 📌 Add ocean‑specific animals  
+- 📌 Add achievement system  
+- 📌 Add sound design & ambient audio  
+- 📌 Add ability to “bookmark” discovered species  
+
+---
+
+## ❤️ Acknowledgments
+
+Inspired by the beauty of wildlife and the wonder of global exploration.  
+Built to spark curiosity — one click at a time.
+
+---
+
+## 📜 License
+
+MIT License — free for personal and commercial use.
+
