@@ -149,12 +149,13 @@ const GlobeView = forwardRef<GlobeViewHandle, GlobeViewProps>(({
         };
         window.addEventListener('resize', handleResize);
 
-        // Set initial view
+        // Set initial view - zoom out more on mobile
         if (globeEl.current) {
+            const isMobile = window.innerWidth < 768;
             globeEl.current.pointOfView({
                 lat: initialLat,
                 lng: initialLng,
-                altitude: 2.5
+                altitude: isMobile ? 3.2 : 2.5
             });
         }
 

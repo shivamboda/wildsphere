@@ -5,6 +5,7 @@ import FactCard from './components/FactCard';
 import Starfield from './components/Starfield';
 import HUD from './components/HUD';
 import MobileMenu from './components/MobileMenu';
+import OrbMenu from './components/OrbMenu';
 import WelcomeOverlay from './components/WelcomeOverlay';
 import { buildIndex, findNearest, getDistanceKm, type Point } from './lib/spatial';
 import animalsDataRaw from './data/animals.json';
@@ -169,22 +170,10 @@ function App() {
         initialLat={20}
         initialLng={-100}
       />
-
-
-      {/* Branding Overlay */}
-      <motion.div
-        initial={{ opacity: 0, y: -20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8, ease: "easeOut" }}
-        className="absolute top-6 left-6 md:top-8 md:left-8 z-10 pointer-events-none select-none"
-      >
-        <div className="glass-panel px-4 py-2 md:px-6 md:py-3 rounded-full flex items-center gap-3">
-          <img src="icon.png" alt="Wild Sphere" className="w-5 h-5 md:w-6 md:h-6 animate-pulse" />
-          <h1 className="text-xl md:text-2xl font-bold bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent tracking-tight">
-            Wild Sphere
-          </h1>
-        </div>
-      </motion.div>
+      {/* OrbMenu - Top left branding */}
+      {!showWelcome && (
+        <OrbMenu />
+      )}
 
       <AnimatePresence>
         {showWelcome && (
